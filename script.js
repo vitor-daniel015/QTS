@@ -15,5 +15,4 @@ function maiorNumero(a, b) {
   };
 }
 
-module.exports = { somar, mensagemBoasVindas, maiorNumero };
 // export default { somar, mensagemBoasVindas };
