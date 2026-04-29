@@ -8,6 +8,6 @@ test('mensagem de boas vindas', () => {
   expect(mensagemBoasVindas('Diogo')).toBe('Olá, Diogo!');
 });
 
-test('soma dois números', () => {
+test('numero maior', () => {
   expect(maiorNumero(2, 3)).toBe('3 e maior que 2');
 });
