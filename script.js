@@ -6,5 +6,11 @@ function mensagemBoasVindas(nome) {
   return `Olá, ${nome}!`;
 }
 
-module.exports = { somar, mensagemBoasVindas };
+function maiorNumero(a, b) {
+  if (a>b) {return `${a} e maior que ${b}`}
+  else if (b>a) {return `${b} e maior que ${a}`}
+  else {return `Numero invalido`}
+}
+
+module.exports = { somar, mensagemBoasVindas, maiorNumero };
 // export default { somar, mensagemBoasVindas };
