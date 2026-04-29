@@ -9,7 +9,6 @@ function mensagemBoasVindas(nome) {
 function maiorNumero(a, b) {
   if (a > b) return `${a} e maior que ${b}`;
   if (b > a) return `${b} e maior que ${a}`;
-  return "Iguais";
 }
 
 module.exports = { somar, mensagemBoasVindas, maiorNumero };
