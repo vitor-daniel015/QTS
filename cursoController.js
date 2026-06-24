@@ -1,12 +1,12 @@
-const { buscarCursoNoBanco } = require('./cursoService');
+const cursoService = require('./cursoService');
 
 function obterNomeCurso(id) {
-    const curso = buscarCursoNoBanco(id);
+    const curso = cursoService.buscarCursoNoBanco(id);
     return curso.nome;
-
 }
+
 function obterPeriodoCurso(id) {
-    const curso = buscarCursoNoBanco(id);
+    const curso = cursoService.buscarCursoNoBanco(id);
     return curso.periodo;
 }
 
