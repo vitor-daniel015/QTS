@@ -1,4 +1,4 @@
 # QTS
 
 # Acessar link InfinityFree:
-## shotbyalvarez.wuaze.com
+#### shotbyalvarez.wuaze.com
